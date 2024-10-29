@@ -1,0 +1,12 @@
+{
+    "name": "ippey/balance-of-freee-account",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Ippei Sumida",
+            "email": "ippey.s@gmail.com"
+        }
+    ],
+    "require": {}
+}

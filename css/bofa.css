@@ -1,0 +1,41 @@
+.bofa_widget table {
+	width: 70%;
+	border: 1px solid #B0C4DE;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.bofa_widget th {
+	color: #fff;
+	padding: 5px;
+	border-bottom: 1px solid #B0C4DE;
+	border-left: 1px solid #B0C4DE;
+	background: #4682B4;
+	font-weight: bold;
+	line-height: 120%;
+	text-align: center;
+}
+
+.bofa_widget td {
+	padding: 5px;
+	border-bottom: 1px solid #B0C4DE;
+	border-left: 1px solid #B0C4DE;
+}
+
+.bofa_widget .money {
+	text-align: right;
+}
+
+.bofa_widget .minus {
+	color: #FF0000;
+}
+
+.bofa_widget tr:nth-child(2n+1) {
+	background: #F0FFFF;
+}
+
+@media screen and (max-width: 720px) {
+	.bofa_widget table {
+		width: 100%;
+	}
+}
